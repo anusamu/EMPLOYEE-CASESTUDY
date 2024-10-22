@@ -1,0 +1,58 @@
+/* Container for the login */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+/* Box containing the form */
+.login-box {
+    width: 400px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Stack styling */
+.login-form {
+    width: 100%;
+}
+
+/* Form heading (Login) */
+.login-heading {
+    font-weight: bold;
+    color: #1877f2; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Input fields */
+.login-input {
+    width: 100%;
+}
+
+/* Button styling */
+.login-button {
+    background-color: #1877f2;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0;
+    text-transform: none; /* To prevent uppercase text */
+    border-radius: 6px;
+}
+
+.login-button:hover {
+    background-color: #166fe5;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .login-box {
+        width: 90%;
+        padding: 20px;
+    }
+}
